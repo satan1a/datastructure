@@ -1,7 +1,5 @@
 package com.satan1a.algorithm;
 
-import java.util.ArrayList;
-
 /**
  * LC_905_SortArrayByParityCheck
  * 根据奇偶性对数组元素进行排序
@@ -25,6 +23,7 @@ public class LC_905_SortArrayByParityCheck {
 
 class Solution {
     public int[] sortArrayByParity(int[] A) {
+
         // Create a int type array to contain the sorted number
         int[] intArray = new int[A.length];
         int sum = 0;
